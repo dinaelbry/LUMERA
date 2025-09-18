@@ -37,13 +37,13 @@ const Products = () => {
 
   return (
     <div className="container products">
-      <h2 className="text-center display-6 fw-bold mb-5 text-dark ">
+      <h2 className="text-center display-6 fw-bold my-5 text-dark ">
         Our Products
       </h2>
       {filteredProducts.length === 0 ? (
         <div className="text-center py-5">No products found</div>
       ) : (
-        <div className="product-cards row row-cols-1 row-cols-md-2 row-cols-lg-3 gx-3 gy-4 align-items-stretch justify-content-center">
+        <div className="product-cards row row-cols-1 row-cols-md-2 row-cols-lg-3 gap-3 align-items-stretch justify-content-center">
           {" "}
           {filteredProducts.map((product) => (
             <div className="col" key={product.id}>

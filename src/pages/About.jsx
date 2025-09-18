@@ -6,7 +6,7 @@ const About = () => {
     <section className="about" id="about">
       <div className="container ">
         <div className="row align-items-center">
-          <div className="col-md-6 text-center px-5 ">
+          <div className="col-md-6 text-center px-4 mb-4 mb-md-0 ">
             <img
               src={aboutImage}
               alt="About Us"
@@ -14,7 +14,7 @@ const About = () => {
             />
           </div>
 
-          <div className="col-md-6 text-center px-5 ">
+          <div className="col-md-6 px-4">
             <div className="info">
               <h3 className="display-6 fw-bold mb-4 text-dark">Who We Are?</h3>
               <p className="lead text-muted">
@@ -49,7 +49,6 @@ const About = () => {
                 <i className="fa-solid fa-check me-3"></i>
                 <p className="mb-0">Our products are cruelty-free and vegan.</p>
               </div>
-              
             </div>
           </div>
         </div>

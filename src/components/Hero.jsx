@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-// import الصور صح
+
 import home1 from "../assets/home1.jpg";
 import home2 from "../assets/home2.jpg";
 import home3 from "../assets/home3.jpg";
@@ -57,7 +57,7 @@ function Hero() {
       <div className="content-overlay text-center">
         <div className="container text-center py-5">
           <div className="row justify-content-center py-4">
-            <div className="col-12 col-md-8">
+            <div className="col-12 col-md-8 col-sm-4">
               <h1 className="display-4 fw-bold text-white">
                 welcome to LUMERA site
               </h1>

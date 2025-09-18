@@ -75,9 +75,9 @@ function Navbar() {
                 </NavLink>
               </li>
             </ul>
-            <form className="me-4" role="search" onSubmit={handleSearch}>
+            <form className="mt-3" role="search" onSubmit={handleSearch}>
               <input
-                className="form-control my-3"
+                className="form-control mb-2"
                 type="search"
                 placeholder="Search"
                 aria-label="Search"
@@ -85,7 +85,7 @@ function Navbar() {
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
               />
-              <button className="btn btn-outline" type="submit">
+              <button className="btn btn-outline w-100" type="submit">
                 Search
               </button>
             </form>

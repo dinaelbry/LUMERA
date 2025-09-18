@@ -10,8 +10,8 @@ function Footer() {
           <span className="fw-bold"> &hearts; </span> by {"  "}
           <span className="fw-bold ">ENG. Dina Elbry </span>
         </p>
-        
-        <div className="links">
+
+        <div className="links mt-2">
           <a
             href="https://www.facebook.com/share/17CKtTmtse/"
             target="_blank"
